@@ -25199,6 +25199,6 @@ ion-navbar.toolbar {
   }
 }
 
-page-intro .slide_image img {
-  width: 340 px;
+.slide_image img {
+  padding: 10%;
 }
