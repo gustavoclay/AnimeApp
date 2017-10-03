@@ -4,17 +4,18 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="intro_page">
 <ion-slides pager>
   
   <ion-slide class="slide_image">
     <img src="assets/images/slide1.png" alt="">
-    <h2>Bem vindo!!!</h2>
+    <h2 class="titulo">Welcome</h2>
+    <p>Bem vindo ao app <strong>AnimeApp</strong></p>
   </ion-slide>
   
   <ion-slide class="slide_image">
     <img src="assets/images/slide2.png" alt="">
-    <h2>Animes e mangás</h2>
+    <h2 class="titulo">Animes e mangás</h2>
       <p>
         Aqui vc encontra os melhores <strong>animes</strong> e <strong>mangás</strong>
       </p>
@@ -22,12 +23,12 @@
   
   <ion-slide class="slide_image">
     <img src="assets/images/slide3.png" alt="">
-    <h2>HQ's e Desenhos</h2>
+    <h2 class="titulo">HQ's e Desenhos</h2>
       <p>
         Temos também uma grande variedades de <strong>HQ's</strong> e <strong>desenhos</strong>  
         como <strong>DC</strong> e <strong>Marvel</strong>
       </p>
-    <button ion-button round color="dark" (click)="goToLoginPage()">Continuar</button>
+    <button ion-button round color="light" large (click)="goToLoginPage()">Continuar</button>
   </ion-slide>
   
 </ion-slides>
